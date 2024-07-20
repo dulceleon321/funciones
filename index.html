@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Promedio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Promedio</h1>
+        <form id="promedioForm">
+            <input type="number" id="numero1" placeholder="Ingrese el primer número" required>
+            <input type="number" id="numero2" placeholder="Ingrese el segundo número" required>
+            <input type="number" id="numero3" placeholder="Ingrese el tercer número" required>
+            <input type="number" id="numero4" placeholder="Ingrese el cuarto número" required>
+            <input type="number" id="numero5" placeholder="Ingrese el quinto número" required>
+            <button type="button" onclick="calcularPromedio()">Calcular Promedio</button>
+        </form>
+        <h2 id="resultado"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
